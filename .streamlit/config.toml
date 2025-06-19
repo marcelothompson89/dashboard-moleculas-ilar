@@ -1,0 +1,14 @@
+[server]
+# Configuración del servidor
+maxUploadSize = 5000
+maxMessageSize = 5000
+
+[browser]
+# Configuración del navegador
+gatherUsageStats = false
+
+
+[dataFrame]
+# Configuración específica para DataFrames
+maxRows = 50000  # Aumentar límite de filas
+maxColumns = 100  # Aumentar límite de columnas
